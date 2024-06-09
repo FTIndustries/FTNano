@@ -3535,6 +3535,181 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:SPX3819M5-L-5-0"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SPX3819M5-L-5-0"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "500mA Low drop-out regulator, Fixed Output 5.0V, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "REGULATOR LDO 5.0V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SPX3819M5-L-5-0_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SPX3819M5-L-5-0_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "BP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "nano:2N7002DW-7-F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4493,141 +4668,6 @@
 				)
 			)
 		)
-		(symbol "nano:ME6214A50M3G"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ME6214A50M3G"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "nano:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_Nanjing-Micro-One-Elec-ME6214A50M3G_C427597.html"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C427597"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ME6214A50M3G_0_1"
-				(rectangle
-					(start -2.54 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -1.27 3.81)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_names
@@ -5224,10 +5264,10 @@
 		(uuid "2d7d0600-1fa6-4a42-8a9d-97707a63f434")
 	)
 	(junction
-		(at 54.61 168.91)
+		(at 33.02 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7a64dda2-ee10-49b0-8665-34c45454558b")
+		(uuid "3a8518a9-bb95-4bf6-a1f9-b53263cf9fa8")
 	)
 	(junction
 		(at 223.52 78.74)
@@ -5236,10 +5276,10 @@
 		(uuid "88a65324-be13-4e0f-a064-a40d00ef9750")
 	)
 	(junction
-		(at 62.23 177.8)
+		(at 33.02 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9a199263-6eb8-4568-950f-576fd91d86d6")
+		(uuid "9aedb289-bec5-437e-8f3b-62e33a4fcaac")
 	)
 	(junction
 		(at 247.65 95.25)
@@ -5260,12 +5300,6 @@
 		(uuid "b29b0a3f-fe54-4cba-9b80-53ce973a4222")
 	)
 	(junction
-		(at 49.53 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0d4ad8d-9d1d-48b7-92b1-7682dff754f2")
-	)
-	(junction
 		(at 74.93 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5282,6 +5316,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2123fc9-0ebe-4a98-a5c2-8b5ad0e679bf")
+	)
+	(junction
+		(at 58.42 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f263e24c-f7a0-4eef-a011-a21407dc61a3")
 	)
 	(junction
 		(at 71.12 176.53)
@@ -5302,6 +5342,10 @@
 	(no_connect
 		(at 224.79 49.53)
 		(uuid "4cd030f6-3269-4691-82f0-45fd54417800")
+	)
+	(no_connect
+		(at 53.34 173.99)
+		(uuid "53146ceb-10dd-49fc-b15d-90dea1b48553")
 	)
 	(no_connect
 		(at 52.07 106.68)
@@ -5445,6 +5489,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 171.45) (xy 53.34 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac241a1-41ec-4b58-bf12-a54e4d91d490")
+	)
+	(wire
+		(pts
 			(xy 166.37 85.09) (xy 166.37 87.63)
 		)
 		(stroke
@@ -5585,16 +5639,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 168.91) (xy 62.23 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a36e641-945f-4b1f-bff0-4d69e9ab4a3c")
-	)
-	(wire
-		(pts
 			(xy 139.7 176.53) (xy 139.7 171.45)
 		)
 		(stroke
@@ -5695,6 +5739,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 167.64) (xy 33.02 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5423fedf-b6df-4054-a550-34f6ea6b5ee5")
+	)
+	(wire
+		(pts
 			(xy 236.22 87.63) (xy 236.22 86.36)
 		)
 		(stroke
@@ -5742,16 +5796,6 @@
 			(type default)
 		)
 		(uuid "67d726e1-19d6-40fa-9fec-fcf55a3cd0e0")
-	)
-	(wire
-		(pts
-			(xy 54.61 166.37) (xy 54.61 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b9d1d1e-167d-4f46-a7f9-becf0ce1cf5c")
 	)
 	(wire
 		(pts
@@ -5825,6 +5869,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 171.45) (xy 38.1 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935f130d-353f-4240-8d92-2103247d7bf5")
+	)
+	(wire
+		(pts
 			(xy 74.93 168.91) (xy 78.74 168.91)
 		)
 		(stroke
@@ -5852,16 +5906,6 @@
 			(type default)
 		)
 		(uuid "970ae485-c283-48d9-9016-8813c422f864")
-	)
-	(wire
-		(pts
-			(xy 44.45 168.91) (xy 54.61 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eb3b1bb-5d2a-469a-a1d1-551b500e94ed")
 	)
 	(wire
 		(pts
@@ -5955,16 +5999,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 177.8) (xy 57.15 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd41f6c8-96f6-462b-be0a-87439910b830")
-	)
-	(wire
-		(pts
 			(xy 147.32 49.53) (xy 151.13 49.53)
 		)
 		(stroke
@@ -5982,16 +6016,6 @@
 			(type default)
 		)
 		(uuid "c45b2e31-b995-4e6e-889c-2f09309041d1")
-	)
-	(wire
-		(pts
-			(xy 49.53 171.45) (xy 49.53 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c46a41c7-9d58-4b5b-8a3a-ef8ad9651d4f")
 	)
 	(wire
 		(pts
@@ -6035,16 +6059,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 171.45) (xy 44.45 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2c403ea-8a07-4b06-a24b-dfeef969ba57")
-	)
-	(wire
-		(pts
 			(xy 78.74 173.99) (xy 74.93 173.99)
 		)
 		(stroke
@@ -6052,6 +6066,16 @@
 			(type default)
 		)
 		(uuid "d30811a0-baa3-40d5-9ffe-b516c9079150")
+	)
+	(wire
+		(pts
+			(xy 33.02 173.99) (xy 33.02 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7293317-4781-44fd-92e7-21f2d1c1110a")
 	)
 	(wire
 		(pts
@@ -6165,6 +6189,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 168.91) (xy 58.42 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5711e1-134f-4bc3-88f5-fb20f7990074")
+	)
+	(wire
+		(pts
 			(xy 210.82 87.63) (xy 210.82 86.36)
 		)
 		(stroke
@@ -6172,6 +6206,16 @@
 			(type default)
 		)
 		(uuid "ec3bf935-6a5c-48ea-b9ca-ed474dacbe94")
+	)
+	(wire
+		(pts
+			(xy 38.1 173.99) (xy 33.02 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4fbcc7-14ac-4aeb-841c-0849df84cf01")
 	)
 	(wire
 		(pts
@@ -6202,16 +6246,6 @@
 			(type default)
 		)
 		(uuid "efe4be2f-45c8-4d61-a774-1b4226b2f525")
-	)
-	(wire
-		(pts
-			(xy 49.53 166.37) (xy 49.53 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f237caa4-74cf-4140-b742-73cd1502fa46")
 	)
 	(wire
 		(pts
@@ -7826,7 +7860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 250.19 93.345 0)
 			(effects
 				(font
@@ -7984,7 +8018,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 226.06 93.345 0)
 			(effects
 				(font
@@ -8114,6 +8148,72 @@
 			(project "FTNano"
 				(path "/55410c0b-db34-4288-81fd-9b556ccdb996"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18efec08-ddce-477c-a77f-3be4927de8b1")
+		(property "Reference" "#PWR044"
+			(at 262.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d543d06-e7e3-4e75-9b73-02caa25f61e4")
+		)
+		(instances
+			(project "FTNano"
+				(path "/55410c0b-db34-4288-81fd-9b556ccdb996"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8296,7 +8396,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 208.28 123.19 90)
 			(effects
 				(font
@@ -8918,7 +9018,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 254 113.03 90)
 			(effects
 				(font
@@ -9297,7 +9397,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 54.61 166.37 0)
+		(at 33.02 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9306,7 +9406,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a954e5f-349a-4c47-948a-b35961043a4e")
 		(property "Reference" "#PWR013"
-			(at 54.61 168.91 0)
+			(at 33.02 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9315,7 +9415,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 54.61 162.56 0)
+			(at 33.02 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,7 +9423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 166.37 0)
+			(at 33.02 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,7 +9432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 166.37 0)
+			(at 33.02 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9341,7 +9441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 166.37 0)
+			(at 33.02 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9756,7 +9856,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 254 123.19 90)
 			(effects
 				(font
@@ -10233,6 +10333,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:SPX3819M5-L-5-0")
+		(at 45.72 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6311b8d2-f744-4874-bb0a-7d4e4f38039a")
+		(property "Reference" "U5"
+			(at 45.72 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPX3819M5-L-5-0"
+			(at 45.72 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 45.72 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819"
+			(at 45.72 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA Low drop-out regulator, Fixed Output 5.0V, SOT-23-5"
+			(at 45.72 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "022320f4-94b0-49e7-a1c7-2e7ea42a029c")
+		)
+		(pin "1"
+			(uuid "bb56627c-20ac-4b7a-858f-5b6794a33bfb")
+		)
+		(pin "2"
+			(uuid "0a1d06cb-0f09-4413-b15f-1e493eca9599")
+		)
+		(pin "3"
+			(uuid "147a4bd4-d250-4664-b229-9d29f4256cf0")
+		)
+		(pin "4"
+			(uuid "09cd4946-d929-4f71-9d11-8c21bfbfebbf")
+		)
+		(instances
+			(project "FTNano"
+				(path "/55410c0b-db34-4288-81fd-9b556ccdb996"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 143.51 59.69 90)
 		(unit 1)
@@ -10367,72 +10544,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 44.45 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d6696bc-e67e-4b70-8ce7-b493b41e3d44")
-		(property "Reference" "#PWR011"
-			(at 44.45 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "695323d9-d044-4bbb-b9d7-6af1484c3044")
-		)
-		(instances
-			(project "FTNano"
-				(path "/55410c0b-db34-4288-81fd-9b556ccdb996"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 78.74 96.52 90)
 		(unit 1)
@@ -10502,7 +10613,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 58.42 168.91 90)
+		(at 33.02 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10511,23 +10622,25 @@
 		(fields_autoplaced yes)
 		(uuid "7275dcb2-8879-4a75-bb89-64898e179d32")
 		(property "Reference" "C6"
-			(at 58.42 162.56 90)
+			(at 36.83 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "10u"
-			(at 58.42 165.1 90)
+			(at 36.83 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 62.23 167.9448 0)
+			(at 32.0548 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10536,7 +10649,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 168.91 0)
+			(at 33.02 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10545,7 +10658,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 168.91 0)
+			(at 33.02 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,72 +11296,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 62.23 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b41252d-2411-4318-96b9-3bf4606976fc")
-		(property "Reference" "#PWR014"
-			(at 62.23 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e03e4ce5-9a2f-406a-9da3-73eafec7e7bd")
-		)
-		(instances
-			(project "FTNano"
-				(path "/55410c0b-db34-4288-81fd-9b556ccdb996"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 76.2 87.63 0)
 		(unit 1)
@@ -11309,86 +11356,6 @@
 			(project "FTNano"
 				(path "/55410c0b-db34-4288-81fd-9b556ccdb996"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "nano:ME6214A50M3G")
-		(at 39.37 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9446a4ab-0a30-47f2-be35-38c7c9636170")
-		(property "Reference" "U3"
-			(at 36.83 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ME6214A50M3G"
-			(at 36.83 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "nano:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 39.37 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_Nanjing-Micro-One-Elec-ME6214A50M3G_C427597.html"
-			(at 39.37 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C427597"
-			(at 39.37 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2faa1d21-bb96-431d-aeb7-609055dc08b1")
-		)
-		(pin "2"
-			(uuid "1df416f3-0785-48f4-8f43-5118481dc6a1")
-		)
-		(pin "3"
-			(uuid "49bacd4a-f7a3-4609-8dd9-7183bcb5a60b")
-		)
-		(instances
-			(project "FTNano"
-				(path "/55410c0b-db34-4288-81fd-9b556ccdb996"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11901,7 +11868,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9636602-93f0-43b4-a5fa-94ec9af26b65")
 		(property "Reference" "RN1"
-			(at 213.36 90.805 0)
+			(at 213.36 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11909,8 +11876,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 213.36 93.345 0)
+		(property "Value" "4.7k"
+			(at 213.36 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12244,7 +12211,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 49.53 166.37 0)
+		(at 58.42 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12253,7 +12220,7 @@
 		(fields_autoplaced yes)
 		(uuid "bca8da28-7c8b-45ae-9f2e-79d75a7b1c0b")
 		(property "Reference" "#PWR012"
-			(at 49.53 170.18 0)
+			(at 58.42 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12262,7 +12229,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 49.53 162.56 0)
+			(at 58.42 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12270,7 +12237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 166.37 0)
+			(at 58.42 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12279,7 +12246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 166.37 0)
+			(at 58.42 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12288,7 +12255,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 166.37 0)
+			(at 58.42 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12459,6 +12426,72 @@
 			(project "FTNano"
 				(path "/55410c0b-db34-4288-81fd-9b556ccdb996"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6de4f9c-f0bd-49ff-8126-a3b321f90e67")
+		(property "Reference" "#PWR011"
+			(at 45.72 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af9087b3-cf41-4927-9c80-0e10968b9de4")
+		)
+		(instances
+			(project "FTNano"
+				(path "/55410c0b-db34-4288-81fd-9b556ccdb996"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12865,6 +12898,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 33.02 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1680029-e4e4-491f-90c8-b1613c64f09e")
+		(property "Reference" "#PWR014"
+			(at 33.02 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff182e54-3700-4d24-b776-78573f33cbad")
+		)
+		(instances
+			(project "FTNano"
+				(path "/55410c0b-db34-4288-81fd-9b556ccdb996"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 266.7 110.49 0)
 		(unit 1)
@@ -12932,7 +13031,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 53.34 177.8 90)
+		(at 58.42 175.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12941,23 +13040,25 @@
 		(fields_autoplaced yes)
 		(uuid "d6bced39-64c2-4d5b-be3e-6a99e5aaaea2")
 		(property "Reference" "C7"
-			(at 53.34 171.45 90)
+			(at 62.23 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "10u"
-			(at 53.34 173.99 90)
+			(at 62.23 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 57.15 176.8348 0)
+			(at 57.4548 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12966,7 +13067,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 177.8 0)
+			(at 58.42 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12975,7 +13076,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 177.8 0)
+			(at 58.42 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13282,7 +13383,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea1069a9-61ab-432a-be9d-44fd36037eee")
 		(property "Reference" "RN2"
 			(at 208.28 110.49 90)
@@ -13292,7 +13392,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 208.28 113.03 90)
 			(effects
 				(font
@@ -13379,7 +13479,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 238.76 93.345 0)
 			(effects
 				(font
@@ -13509,6 +13609,72 @@
 			(project "FTNano"
 				(path "/55410c0b-db34-4288-81fd-9b556ccdb996"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f206dee1-5888-477c-ae10-e05bac02c0f1")
+		(property "Reference" "#PWR043"
+			(at 58.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41947c08-e6d7-4e68-9cf5-bc8df81899ea")
+		)
+		(instances
+			(project "FTNano"
+				(path "/55410c0b-db34-4288-81fd-9b556ccdb996"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
